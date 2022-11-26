@@ -1,6 +1,6 @@
 timeout: 1200s
 substitutions:
-  _REGION: us-central1
+  _REGION: us-west1
   _CLUSTER:  nidal-cluster-gke
 steps:
   - name: gcr.io/cloud-builders/kubectl
